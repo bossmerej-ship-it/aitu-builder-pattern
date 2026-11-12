@@ -15,5 +15,14 @@ The domain focuses on configuring vehicles with diverse representations (e.g., s
 - **Client**: `Main` — demonstrates execution via Director presets and direct Fluent API chaining.
 
 ## How to Run
-1. Open the project in IntelliJ IDEA (JDK 17+).
-2. Run `com.carrental.Main.main()`.
+
+With JDK 17 or newer and Maven installed, run these commands from the project root:
+
+```sh
+mvn compile
+java -cp target/classes com.carrental.Main
+```
+
+The demo prints the Toyota Camry and Porsche 911 presets, followed by a custom Hyundai Elantra.
+
+In IntelliJ IDEA, open the project as a Maven project and run `com.carrental.Main.main()`.
